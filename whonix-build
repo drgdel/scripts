@@ -30,5 +30,5 @@ esac
 
 
 
-#clear
-#git -C "/home/user/Whonix" checkout 7.7.3
+# clear
+# git -C "/home/user/Whonix" checkout 7.7.3
