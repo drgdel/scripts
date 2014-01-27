@@ -1,0 +1,34 @@
+#!/bin/bash
+# Whonix build menu script
+# It updates, upgrades and runs git clone and checkout
+
+sudo apt-get update && apt-get dist-upgrade -y
+
+echo "=============================================================="
+echo "What version of Whonix would you like to build?"
+echo ""
+echo "Stable releases         --> Press 1 "
+echo "Testers-only, developers-only releases --> Press 2 "
+echo "Exit the build menu         --> Press 0 "
+echo ""
+echo "Choose one option and press Enter"
+echo "=============================================================="
+read answer
+
+case $answer in 1)
+git clone https://github.com/Whonix/Whonix &&
+esac
+
+case $answer in 2)
+git clone https://github.com/adrelanos/nothing-to-see
+esac
+
+case $answer in 0)
+exit & echo "Exiting the build menu"
+esac
+
+
+
+
+#clear
+#git -C "/home/user/Whonix" checkout 7.7.3
