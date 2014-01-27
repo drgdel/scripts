@@ -1,11 +1,11 @@
 #!/bin/bash
 # Whonix build menu script welcome
 clear
-echo "=========================================================="
-echo "=========================================================="
-echo "You have completed a network install of Debian Wheezy (stable) 7.3 from a minimal CD"
-echo "In order to save your progress it's recommended to take a snapshot of this Virtual Machine." 
+echo "================================================================="
+echo "================================================================="
+echo "You have completed a network install of Debian 7.3 (wheezy) from a minimal CD"
+echo "In order to save your progress take a snapshot of this Virtual Machine." 
 echo "Click 'Machine' and 'Take Snaphost'. Name it 'First login'. 
-echo "After that, if you are ready to starting building Whonix, type 'whonix-build' and press Enter"
-echo "=========================================================="
-echo "=========================================================="
+echo "After that, type 'whonix-build' and press Enter to starting building Whonix"
+echo "================================================================="
+echo "================================================================="
