@@ -3,7 +3,8 @@
 # It updates, upgrades and runs git clone and checkout
 
 
-sudo echo "deb http://ftp.us.debian.org/debian/ wheezy-backports main" >> /etc/apt/sources.list
+# sudo echo "deb http://ftp.debian.org/debian/ wheezy-backports main" >> /etc/apt/sources.list
+# apt-get -t wheezy-backports install git
 sudo apt-get update && sudo apt-get dist-upgrade -y
 
 echo "==============================================================================="
