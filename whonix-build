@@ -2,6 +2,8 @@
 # Whonix build menu script
 # It updates, upgrades and runs git clone and checkout
 
+
+echo "deb http://ftp.us.debian.org/debian/ wheezy-backports main" >> /etc/apt/sources.list
 sudo apt-get update && sudo apt-get dist-upgrade -y
 
 echo "==============================================================================="
