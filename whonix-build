@@ -2,7 +2,7 @@
 # Whonix build menu script
 # It updates, upgrades and runs git clone and checkout
 
-# sudo apt-get update && sudo apt-get dist-upgrade -y
+sudo apt-get update && sudo apt-get dist-upgrade -y
 
 echo "==============================================================================="
 echo "What version of Whonix would you like to build?"
