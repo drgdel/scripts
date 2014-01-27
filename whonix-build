@@ -5,21 +5,21 @@
 
 # sudo echo "deb http://ftp.debian.org/debian/ wheezy-backports main" >> /etc/apt/sources.list
 # apt-get -t wheezy-backports install git
-sudo apt-get update && sudo apt-get dist-upgrade -y
+# sudo apt-get update && sudo apt-get dist-upgrade -y
 
 echo "==============================================================================="
 echo "What version of Whonix would you like to build?"
 echo ""
-echo "Stable release                             --> Press 1 "
-echo "Testers-only or developers-only releases   --> Press 2 "
-echo "Exit the build menu                        --> Press 0 "
+echo "Latest stable release                                  --> Press 1 "
+echo "Old stable, testers-only or developers-only releases   --> Press 2 "
+echo "Exit the build menu                                    --> Press 0 "
 echo ""
 echo "Choose one option and press Enter"
 echo "==============================================================================="
 read answer
 
 case "$answer" in "1" )
-git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" tag
+git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
 esac
 
 case "$answer" in "2" )
