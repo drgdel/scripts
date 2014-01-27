@@ -16,11 +16,11 @@ echo "==========================================================================
 read answer
 
 case "$answer" in "1" )
-git clone https://github.com/Whonix/Whonix
+git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" tag
 esac
 
 case "$answer" in "2" )
-git clone https://github.com/adrelanos/nothing-to-see
+git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
 esac
 
 case "$answer" in "0" )
@@ -32,4 +32,4 @@ esac
 
 
 # clear
-# git -C "/home/user/Whonix" checkout 7.7.3
+# 
