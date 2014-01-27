@@ -1,5 +1,6 @@
 #!/bin/bash
 # Whonix build menu script welcome
+wget -O /home/user/whonix-build https://raw.github.com/drgdel/scripts/master/whonix-build;
 clear
 echo "================================================================================"
 echo "================================================================================"
