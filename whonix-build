@@ -4,15 +4,15 @@
 
 sudo apt-get update && apt-get dist-upgrade -y
 
-echo "=============================================================="
+echo "=============================================================================="
 echo "What version of Whonix would you like to build?"
 echo ""
-echo "Stable releases         --> Press 1 "
+echo "Stable releases                        --> Press 1 "
 echo "Testers-only, developers-only releases --> Press 2 "
-echo "Exit the build menu         --> Press 0 "
+echo "Exit the build menu                    --> Press 0 "
 echo ""
 echo "Choose one option and press Enter"
-echo "=============================================================="
+echo "=============================================================================="
 read answer
 
 case $answer in 1)
