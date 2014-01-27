@@ -15,18 +15,17 @@ echo "Choose one option and press Enter"
 echo "=============================================================================="
 read answer
 
-case "$answer" in "1" )
+case "$answer" in 
+
+"1" )
 git clone https://github.com/Whonix/Whonix
-esac
 
-case "$answer" in "2" )
+"2" )
 git clone https://github.com/adrelanos/nothing-to-see
-esac
 
-case "$answer" in 0)
+"0" )
 exit 
 # & echo "Exiting the build menu"
-esac
 
 
 
