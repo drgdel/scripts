@@ -1,5 +1,6 @@
 #!/bin/bash
 # Whonix build menu script welcome
+clear
 echo "=========================================================="
 echo "=========================================================="
 echo "You have completed a network install of Debian Wheezy (stable) 7.3 from a minimal CD"
