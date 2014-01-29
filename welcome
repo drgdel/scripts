@@ -7,6 +7,6 @@ echo "==========================================================================
 echo "==You have completed a network install of Debian 7.3 (wheezy) from a minimal CD="
 echo "==In order to save your progress, take a snapshot of your Virtual Machine (VM)==" 
 echo "==In the VM window click 'Machine' and 'Take Snaphost'. Name it 'First login'==="
-echo "==After that, type 'build-whonix' and press Enter to starting building Whonix==="
+echo "==After that, type 'whonix' and press Enter to starting building Whonix==="
 echo "================================================================================"
 echo "================================================================================"
