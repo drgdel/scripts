@@ -3,7 +3,7 @@
 wget -O /home/user/whonix-build https://raw.github.com/drgdel/scripts/master/whonix-build;
 clear
 echo "================================================================================"
-echo "=========================WHONIX_BUILD_MENU_SCRIPT==============================="
+echo "=====================WHONIX_BUILD_WELCOME_MENU_SCRIPT==========================="
 echo "================================================================================"
 echo "==You have completed a network install of Debian 7.3 (wheezy) from a minimal CD="
 echo "==In order to save your progress, take a snapshot of your Virtual Machine (VM)==" 
