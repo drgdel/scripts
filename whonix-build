@@ -7,8 +7,8 @@
 # Install git 1.8.5 (new git-c function)
 #sudo apt-get -t wheezy-backports install git -y
 
-selection=
-until [ "$selection" = "0" ]; do
+#selection=
+#until [ "$selection" = "0" ]; do
 
 echo "==============================================================================="
 echo "Whick version of Whonix would you like to build?"
@@ -26,6 +26,11 @@ echo "Exiting the build menu"; exit
 esac
 
 case "$answer1" in 1 )
+
+if [ -d "$DIRECTORY" ]; then
+  sudo rm -r Whonix
+fi
+
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
 esac
 
@@ -69,4 +74,4 @@ esac
 #exit & echo "Exiting the build menu"
 #esac
 
-done
+#done
