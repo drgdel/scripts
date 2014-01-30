@@ -27,7 +27,7 @@ esac
 
 case "$answer1" in 1 )
 
-if [ -d "$DIRECTORY" ]; then
+if [ -d "$Whonix" ]; then
   sudo rm -r Whonix
 fi &&
 
