@@ -111,8 +111,8 @@ git -C "/home/user/nothing-to-see" checkout "$answer"
 #sh /home/user/whonix-build
 #esac
 
-#clear
-echo "You have selected "$answer" "
+clear
+echo "You have selected Whonix version "$answer" "
 echo "==============================================================================="
 echo "What would you like to do?"
 echo ""
@@ -126,17 +126,17 @@ echo "Select by pressing the number and then ENTER"
 echo "==============================================================================="
 read answer
 
-#case $answer in 1)
-#sudo ./Whonix/whonix_build --build --tor-gateway
-#esac
+case $answer in 1)
+sudo ./Whonix/whonix_build --build --tor-gateway
+esac
 
-#case $answer in 2)
-#sudo ./Whonix/whonix_build --build --tor-workstation
-#esac
+case $answer in 2)
+sudo ./Whonix/whonix_build --build --tor-workstation
+esac
 
-#case $answer in 3)
-#sudo ./Whonix/whonix_build --tor-gateway --bare-metal --build
-#esac
+case $answer in 3)
+sudo ./Whonix/whonix_build --tor-gateway --bare-metal --build
+esac
 
 #case $answer in 4)
 #sudo ./no command yet
