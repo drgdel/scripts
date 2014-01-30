@@ -3,6 +3,8 @@
 # It updates, upgrades and runs git clone and checkout
 
 sudo apt-get update && sudo apt-get dist-upgrade -y
+
+# Install git 1.8.5 (new git-c function)
 sudo apt-get -t wheezy-backports install git -y
 
 echo "==============================================================================="
