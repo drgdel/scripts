@@ -36,6 +36,12 @@ git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkou
 esac
 
 case "$answer1" in 2 )
+
+if [ -d "/home/user/nothing-to-see" ] 
+  then
+       sudo rm -r nothing-to-see 
+fi &&
+
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
 echo "Type in which version do you want to build and press Enter"
 esac
