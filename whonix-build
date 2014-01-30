@@ -25,7 +25,7 @@ read answer1
 case "$answer1" in 0 )
 echo "Exiting the build menu ..."; 
 sleep 2
-clear
+#clear
 echo "If you wish to build Whonix again just type 'whonix' and press Enter"
 exit
 esac
