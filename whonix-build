@@ -18,11 +18,11 @@ echo "Select by pressing the number and then ENTER"
 echo "==============================================================================="
 read answer1
 
-case "$answer1" in [0]* )
+case "$answer1" in 0 )
 echo "Exiting the build menu"; exit
 esac
 
-case "$answer1" in [1]* )
+case "$answer1" in 1 )
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
 esac
 
@@ -30,7 +30,7 @@ case "$answer1" in * )
 echo "You have pressed an invalid key, please try again."
 esac
 
-case "$answer1" in "2" )
+case "$answer1" in 2 )
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
 echo "Type in what version do you want to build and press Enter"
 esac
