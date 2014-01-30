@@ -95,7 +95,7 @@ esac
 #sh /home/user/whonix-build
 #esac
 
-#case "$answer1" in "answer" )
+case "$answer1" in "answer" )
 git -C "/home/user/nothing-to-see" checkout "$answer"
 
 clear
