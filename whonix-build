@@ -22,8 +22,8 @@ echo "==========================================================================
 read answer1
 
 case "$answer1" in 0 )
-echo "Exiting the build menu"; 
-sleep 5
+echo "Exiting the build menu..."; 
+sleep 3
 exit
 esac
 
