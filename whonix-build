@@ -7,7 +7,7 @@
 # Install git 1.8.5 (new git-c function)
 #sudo apt-get -t wheezy-backports install git -y
 
-condition
+condition=
 until [ "$condition" = "0" ]; do
 
 echo "==============================================================================="
