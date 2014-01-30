@@ -96,17 +96,20 @@ esac
 #esac
 
 #case "$answer1" in "answer" )
-#git -C "/home/user/nothing-to-see" checkout "$answer"
-#echo "============================================================================="
-#echo "What would you like to do?"
-#echo ""
-#echo "Build Whonix-Gateway virtual machine image         --> Press 1 "
-#echo "Build Whonix-Workstation virtual machine image     --> Press 2 "
-#echo "Build Whonix-Gateway on hardware                   --> Press 3 "
-#echo "Exit the build menu                                --> Press 0 "
-#echo ""
-#echo "Select by pressing the number and then ENTER"
-#echo "============================================================================"
+git -C "/home/user/nothing-to-see" checkout "$answer"
+
+clear
+echo "==============================================================================="
+echo "What would you like to do?"
+echo ""
+echo "Build Whonix-Gateway virtual machine image            --> Press 1 "
+echo "Build Whonix-Workstation virtual machine image        --> Press 2 "
+echo "Build Whonix-Gateway on hardware                      --> Press 3 "
+echo "Build Whonix-Gateway on a virtual machine             --> Press 4 "
+echo "Exit the build menu                                   --> Press 0 "
+echo ""
+echo "Select by pressing the number and then ENTER"
+echo "==============================================================================="
 #read answer
 
 #case $answer in 1)
@@ -125,10 +128,11 @@ esac
 #sudo ./no command yet
 #esac
 
-#case $answer in 0)
-#echo "Exiting the build menu ..."; 
-#sleep 2
-#exit
-#esac
+case $answer in 0)
+echo "Exiting the build menu ..."; 
+sleep 2
+exit
+esac
+esac
 
 #done
