@@ -8,7 +8,7 @@
 #sudo apt-get -t wheezy-backports install git -y
 
 echo "==============================================================================="
-echo "What version of Whonix would you like to build?"
+echo "Whick version of Whonix would you like to build?"
 echo ""
 echo "Latest stable release                                  --> Press 1 "
 echo "Old stable, testers-only or developers-only releases   --> Press 2 "
@@ -28,7 +28,7 @@ esac
 
 case "$answer1" in 2 )
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
-echo "Type in what version do you want to build and press Enter"
+echo "Type in which version do you want to build and press Enter"
 esac
 #read answer
 
