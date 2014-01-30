@@ -10,7 +10,7 @@
 #condition=
 #until [ "$condition" = "0" ]; do
 
-clear
+#clear
 echo "==============================================================================="
 echo "Which version of Whonix would you like to build?"
 echo ""
@@ -25,7 +25,7 @@ read answer1
 case "$answer1" in 0 )
 echo "Exiting the build menu ..."; 
 sleep 2
-#clear
+clear
 echo "If you wish to build Whonix again just type 'whonix' and press Enter"
 exit
 esac
@@ -39,6 +39,19 @@ if [ -d "/home/user/Whonix" ]
 fi &&
 
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 7.3.7
+
+echo "==============================================================================="
+echo "What would you like to do?"
+echo ""
+echo "Build Whonix-Gateway virtual machine image            --> Press 1 "
+echo "Build Whonix-Workstation virtual machine image        --> Press 2 "
+echo "Build Whonix-Gateway on hardware                      --> Press 3 "
+echo "Exit the build menu                                   --> Press 0 "
+echo ""
+echo "Select by pressing the number and then ENTER"
+echo "==============================================================================="
+read answer2
+
 esac
 
 case "$answer1" in 2 )
