@@ -29,7 +29,7 @@ esac
 case "$answer1" in 2 )
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
 echo "Type in what version do you want to build and press Enter"
-#esac
+esac
 #read answer
 
 case "$answer1" in * )
@@ -65,4 +65,4 @@ esac
 #case $answer in 0)
 #exit & echo "Exiting the build menu"
 #esac
-#esac
+esac
