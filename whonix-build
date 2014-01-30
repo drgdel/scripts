@@ -125,9 +125,9 @@ esac
 #esac
 
 #case $answer in 0)
-echo "Exiting the build menu ..."; 
-sleep 2
-exit
+#echo "Exiting the build menu ..."; 
+#sleep 2
+#exit
 #esac
 
 #done
