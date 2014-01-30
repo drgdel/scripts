@@ -40,6 +40,7 @@ fi &&
 
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 7.3.7
 
+clear
 echo "==============================================================================="
 echo "What would you like to do?"
 echo ""
