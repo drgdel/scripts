@@ -93,7 +93,7 @@ echo "You can see the list of all tags by simultaneously pressing keys Shift and
 echo ""
 echo "Tags that haven't been announced on the blog, forum or the mailing list"
 echo "may very well result in a broken build script therefore be sure that" 
-echo "you know exactly why are you choosing to build a particular version"
+echo "you know exactly why you are choosing to build a particular version"
 echo ""
 echo "Type in which version you want to build and press Enter"
 echo "==============================================================================="
@@ -101,9 +101,6 @@ read answer
 
 #echo "You have selected "$answer" " &&
 git -C "/home/user/nothing-to-see" checkout "$answer"
-
-#case "$answer1" in "answer" )
-#git -C "/home/user/nothing-to-see" checkout "$answer"
 
 #case "$answer1" in * )
 #echo "You have pressed an invalid key, please try again."
@@ -122,7 +119,7 @@ echo "Build Whonix-Gateway on hardware                      --> Press 3 "
 echo "Build Whonix-Gateway on a virtual machine             --> Press 4 "
 echo "Exit the build menu                                   --> Press 0 "
 echo ""
-echo "Select by pressing the number and then ENTER"
+echo "Select by pressing the number and then Enter"
 echo "==============================================================================="
 read answer
 
