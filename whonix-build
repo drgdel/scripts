@@ -78,6 +78,8 @@ esac
 esac
 
 case "$answer1" in 2 )
+echo "Preparing the menu for developer and testing-only releases ..."
+sleep 1
 
 if [ -d "/home/user/nothing-to-see" ] 
   then
