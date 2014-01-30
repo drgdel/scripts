@@ -38,7 +38,7 @@ if [ -d "/home/user/Whonix" ]
        sudo rm -r Whonix 
 fi &&
 
-git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
+git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 7.3.7
 esac
 
 case "$answer1" in 2 )
