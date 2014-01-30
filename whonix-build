@@ -75,6 +75,7 @@ echo "Exiting the build menu ...";
 sleep 2
 exit
 esac
+esac
 
 case "$answer1" in 2 )
 
