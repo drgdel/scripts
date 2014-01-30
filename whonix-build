@@ -87,6 +87,13 @@ if [ -d "/home/user/nothing-to-see" ]
 fi &&
 
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
+echo "Check on Whonix blog or mailing list if the selected tag supports the wanted build operation. 
+echo "Some might work for creating upgraded Whonix Debian Packages but not for VM build, etc." 
+echo "Tags that haven't been announced on the blog, forum or the mailing list may very well result in a broken build script"
+echo "Many changes between the tags are rather boring from user's perspective"
+echo "Sometimes these are just improvements of the build script, improved messages or new debugging code, refactoring"
+echo "and such necessities therefore know why exactly are you building a specific version.
+echo ""
 echo "Type in which version do you want to build and press Enter"
 read answer
 echo "You have selected "$answer" " && git -C "/home/user/nothing-to-see" checkout "$answer"
