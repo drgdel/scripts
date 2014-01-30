@@ -87,8 +87,9 @@ if [ -d "/home/user/nothing-to-see" ]
 fi &&
 
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
+
 echo "==============================================================================="
-echo "You can see the list of all tags by simultaneously pressing 'Shift' and 'PageUp"
+echo "You can see the list of all tags by simultaneously pressing 'Shift' and 'PageUp'"
 echo ""
 echo "Tags that haven't been announced on the blog, forum or the mailing list"
 echo "may very well result in a broken build script therefore be sure that" 
@@ -97,7 +98,9 @@ echo ""
 echo "Type in which version you want to build and press Enter"
 echo "==============================================================================="
 read answer
-echo "You have selected "$answer" && git -C "/home/user/nothing-to-see" checkout "$answer"
+
+echo "You have selected "$answer" && 
+git -C "/home/user/nothing-to-see" checkout "$answer"
 
 #case "$answer1" in "answer" )
 #git -C "/home/user/nothing-to-see" checkout "$answer"
