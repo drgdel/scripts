@@ -95,7 +95,7 @@ echo ""
 echo "Type in which version you want to build and press Enter"
 echo "==============================================================================="
 read answer
-echo "You have selected "$answer" " && git -C "/home/user/nothing-to-see" checkout "$answer"
+echo "You have selected "$answer" && git -C "/home/user/nothing-to-see" checkout "$answer"
 
 #case "$answer1" in "answer" )
 #git -C "/home/user/nothing-to-see" checkout "$answer"
