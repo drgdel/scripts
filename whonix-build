@@ -89,10 +89,10 @@ fi &&
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
 echo "Type in which version do you want to build and press Enter"
 read answer
-echo "You have selected "$answer" "
+echo "You have selected "$answer" " && git -C "/home/user/nothing-to-see" checkout "$answer"
 
-case "$answer1" in "answer" )
-git -C "/home/user/nothing-to-see" checkout "$answer"
+#case "$answer1" in "answer" )
+#git -C "/home/user/nothing-to-see" checkout "$answer"
 
 #case "$answer1" in * )
 #echo "You have pressed an invalid key, please try again."
