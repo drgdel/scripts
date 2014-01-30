@@ -28,7 +28,7 @@ esac
 case "$answer1" in 1 )
 
 if [ -d "$Whonix" ]; then
-  sudo rm -r Whonix
+  echo "Yep"
 fi &&
 
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
