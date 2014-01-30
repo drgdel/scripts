@@ -14,9 +14,13 @@ echo "Latest stable release                                  --> Press 1 "
 echo "Old stable, testers-only or developers-only releases   --> Press 2 "
 echo "Exit the build menu                                    --> Press 0 "
 echo ""
-echo "Choose one option and press Enter"
+echo "Select by pressing the number and then ENTER"
 echo "==============================================================================="
 read answer
+
+case "$answer" in "*" )
+echo "You have pressed an invalid key, please try again."
+esac
 
 case "$answer" in "1" )
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
@@ -27,7 +31,8 @@ git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/noth
 echo "Type in what version do you want to build and press Enter"
 esac
 read answer
-case "$answer" in "answer" )
+
+#case "$answer" in "answer" )
 git -C "/home/user/nothing-to-see" checkout "$answer"
 echo "============================================================================="
 echo "What would you like to do?"
@@ -37,7 +42,7 @@ echo "Build Whonix-Workstation virtual machine image     --> Press 2 "
 echo "Build Whonix-Gateway on hardware                   --> Press 3 "
 echo "Exit the build menu                                --> Press 0 "
 echo ""
-echo "Choose one option and press Enter"
+echo "Select by pressing the number and then ENTER"
 echo "============================================================================"
 read answer
 
