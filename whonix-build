@@ -7,8 +7,8 @@
 # Install git 1.8.5 (new git-c function)
 #sudo apt-get -t wheezy-backports install git -y
 
-condition=
-until [ "$condition" = "0" ]; do
+#condition=
+#until [ "$condition" = "0" ]; do
 
 clear
 echo "==============================================================================="
@@ -87,4 +87,4 @@ esac
 #exit & echo "Exiting the build menu"
 #esac
 
-done
+#done
