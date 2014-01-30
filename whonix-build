@@ -18,10 +18,6 @@ echo "Select by pressing the number and then ENTER"
 echo "==============================================================================="
 read answer1
 
-case "$answer1" in * )
-echo "You have pressed an invalid key, please try again."
-esac
-
 case "$answer1" in 0 )
 echo "Exiting the build menu"; exit
 esac
@@ -64,6 +60,10 @@ esac
 
 case $answer in 0)
 exit & echo "Exiting the build menu"
+esac
+
+case "$answer1" in * )
+echo "You have pressed an invalid key, please try again."
 esac
 
 esac
