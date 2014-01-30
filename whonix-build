@@ -11,7 +11,7 @@ echo "==========================================================================
 echo "Whick version of Whonix would you like to build?"
 echo ""
 echo "Latest stable release                                  --> Press 1 "
-echo "Old stable, testers-only or developers-only releases   --> Press 2 "
+echo "Testers-only or developers-only releases               --> Press 2 "
 echo "Exit the build menu                                    --> Press 0 "
 echo ""
 echo "Select by pressing the number and then ENTER"
