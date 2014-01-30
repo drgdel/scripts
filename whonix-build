@@ -27,7 +27,7 @@ esac
 
 case "$answer1" in 1 )
 
-if [ -d "$Whonix" ]; then
+if [ -d "/home/user/Whonix" ]; then
   echo "Yep"
 fi &&
 
