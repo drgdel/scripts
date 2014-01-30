@@ -88,8 +88,7 @@ fi &&
 
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
 echo "Type in which version do you want to build and press Enter"
-esac
-#read answer
+read answer
 
 #case "$answer1" in * )
 #echo "You have pressed an invalid key, please try again."
@@ -134,6 +133,7 @@ case $answer in 0)
 echo "Exiting the build menu ..."; 
 sleep 2
 exit
+esac
 esac
 esac
 
