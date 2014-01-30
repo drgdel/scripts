@@ -24,6 +24,7 @@ read answer1
 
 case "$answer1" in 0 )
 echo "Exiting the build menu..."; 
+echo "If you want to tarting building Whonix again, type 'whonix' and press Enter"
 sleep 2
 clear
 exit
