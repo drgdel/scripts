@@ -14,7 +14,7 @@
 echo "==============================================================================="
 echo "Which version of Whonix would you like to build?"
 echo ""
-echo "Latest stable release                                  --> Press 1 "
+echo "Latest stable release (8)                              --> Press 1 "
 echo "Developer or testers-only releases                     --> Press 2 "
 echo "Exit the build menu                                    --> Press 0 "
 echo ""
@@ -68,11 +68,11 @@ echo "Type in which version do you want to build and press Enter"
 esac
 #read answer
 
-case "$answer1" in * )
-echo "You have pressed an invalid key, please try again."
-sleep 2
-sh /home/user/whonix-build
-esac
+#case "$answer1" in * )
+#echo "You have pressed an invalid key, please try again."
+#sleep 2
+#sh /home/user/whonix-build
+#esac
 
 #case "$answer1" in "answer" )
 #git -C "/home/user/nothing-to-see" checkout "$answer"
