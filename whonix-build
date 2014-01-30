@@ -31,6 +31,8 @@ if [ -d "$DIRECTORY" ]; then
   sudo rm -r Whonix
 fi
 
+&&
+
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
 esac
 
