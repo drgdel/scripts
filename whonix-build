@@ -24,6 +24,11 @@ esac
 
 case "$answer" in "2" )
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
+echo "Type in what version do you want to build and press Enter"
+esac
+read answer
+case "$answer" in "$answer" )
+git -C "/home/user/nothing-to-see" checkout "$answer"
 esac
 
 case "$answer" in "0" )
