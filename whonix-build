@@ -30,9 +30,3 @@ case "$answer" in "0" )
 exit
 # & echo "Exiting the build menu"
 esac
-
-
-
-
-# clear
-# 
