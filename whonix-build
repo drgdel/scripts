@@ -54,6 +54,26 @@ echo "Select by pressing the number and then ENTER"
 echo "==============================================================================="
 read answer2
 
+case $answer2 in 1)
+sudo ./Whonix/whonix_build --build --tor-gateway
+esac
+
+case $answer2 in 2)
+sudo ./Whonix/whonix_build --build --tor-workstation
+esac
+
+case $answer2 in 3)
+sudo ./Whonix/whonix_build --tor-gateway --bare-metal --build
+esac
+
+case $answer2 in 4)
+sudo ./no command yet
+esac
+
+case $answer in 0)
+echo "Exiting the build menu ..."; 
+sleep 2
+exit
 esac
 
 case "$answer1" in 2 )
@@ -105,7 +125,9 @@ esac
 #esac
 
 #case $answer in 0)
-#exit & echo "Exiting the build menu"
+echo "Exiting the build menu ..."; 
+sleep 2
+exit
 #esac
 
 #done
