@@ -23,7 +23,7 @@ echo "==========================================================================
 read answer1
 
 case "$answer1" in 0 )
-echo "Exiting the build menu..."; 
+echo "Exiting the build menu ..."; 
 sleep 2
 clear
 echo "If you wish to build Whonix again just type 'whonix' and press Enter"
@@ -31,7 +31,7 @@ exit
 esac
 
 case "$answer1" in 1 )
-echo "Preparing the menu for Whonix stable..."
+echo "Preparing the menu for Whonix stable ..."
 sleep 1
 if [ -d "/home/user/Whonix" ] 
   then
