@@ -112,6 +112,7 @@ git -C "/home/user/nothing-to-see" checkout "$answer"
 #esac
 
 clear
+echo "You have selected "$answer" "
 echo "==============================================================================="
 echo "What would you like to do?"
 echo ""
