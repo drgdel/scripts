@@ -99,6 +99,9 @@ echo "Type in which version you want to build and press Enter"
 echo "==============================================================================="
 read answer
 
+# If a non existing version will be selected (ie 5, 9, random,  blabla, xssd, ds, etc) 
+# the script will continue to proceed with checkout of the latest tag.
+
 #echo "You have selected "$answer" " &&
 git -C "/home/user/nothing-to-see" checkout "$answer"
 
