@@ -29,7 +29,7 @@ case "$answer1" in 1 )
 
 if [ -d "/home/user/Whonix" ] 
   then
-       echo "Yep"
+       sudo rm -r Whonix 
 fi &&
 
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 8
