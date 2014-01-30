@@ -88,6 +88,8 @@ fi &&
 
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
 echo "==============================================================================="
+echo "You can see the list of all tags by simultaneously pressing 'Shift' and 'PageUp"
+echo ""
 echo "Tags that haven't been announced on the blog, forum or the mailing list"
 echo "may very well result in a broken build script therefore be sure that" 
 echo "you know exactly why are you choosing to build a particular version"
