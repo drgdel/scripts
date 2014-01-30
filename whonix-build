@@ -27,7 +27,7 @@ git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/noth
 echo "Type in what version do you want to build and press Enter"
 esac
 read answer
-case "$answer" in "$answer" )
+case "$answer" in "answer" )
 git -C "/home/user/nothing-to-see" checkout "$answer"
 echo "============================================================================="
 echo "What would you like to do?"
