@@ -35,7 +35,7 @@ echo "Preparing the build menu for Whonix stable ..."
 sleep 1
 if [ -d "/home/user/Whonix" ] 
   then
-       sudo rm -r Whonix && echo "Deleting previously created Whonix directory ..."
+       sudo rm -r Whonix && echo "Deleting previously created 'Whonix' directory ..."
 fi &&
 
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 7.3.7
@@ -83,7 +83,7 @@ sleep 1
 
 if [ -d "/home/user/nothing-to-see" ] 
   then
-       sudo rm -r nothing-to-see && echo "Deleting previously created nothing-to-see directory ..."
+       sudo rm -r nothing-to-see && echo "Deleting previously created 'nothing-to-see' directory ..."
 fi &&
 
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
@@ -102,7 +102,6 @@ read answer
 echo "If a non existing version will be selected the script will continue"
 echo "will continue to proceed with the checkout of the most recent tag"
 
-#echo "You have selected "$answer" " &&
 git -C "/home/user/nothing-to-see" checkout "$answer"
 
 #case "$answer1" in * )
@@ -111,7 +110,7 @@ git -C "/home/user/nothing-to-see" checkout "$answer"
 #sh /home/user/whonix-build
 #esac
 
-clear
+#clear
 echo "You have selected Whonix version "$answer" "
 echo "==============================================================================="
 echo "What would you like to do?"
