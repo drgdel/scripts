@@ -35,7 +35,7 @@ echo "Preparing the build menu for Whonix stable ..."
 sleep 1
 if [ -d "/home/user/Whonix" ] 
   then
-       sudo rm -r Whonix 
+       sudo rm -r Whonix && echo "Deleting previously created Whonix directory ..."
 fi &&
 
 git clone https://github.com/Whonix/Whonix && git -C "/home/user/Whonix" checkout 7.3.7
@@ -83,7 +83,7 @@ sleep 1
 
 if [ -d "/home/user/nothing-to-see" ] 
   then
-       sudo rm -r nothing-to-see 
+       sudo rm -r nothing-to-see && echo "Deleting previously created nothing-to-see directory ..."
 fi &&
 
 git clone https://github.com/adrelanos/nothing-to-see && git -C "/home/user/nothing-to-see" tag
