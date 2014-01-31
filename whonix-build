@@ -99,8 +99,9 @@ echo "Type in which version you want to build and press Enter"
 echo "==============================================================================="
 read answer
 
-echo "If a non existing version will be selected the script will continue"
+echo "If a non existing version has been selected the script"
 echo "will continue to proceed with the checkout of the most recent tag"
+sleep 2
 
 git -C "/home/user/nothing-to-see" checkout "$answer"
 
