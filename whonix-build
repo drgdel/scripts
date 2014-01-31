@@ -127,15 +127,15 @@ echo "==========================================================================
 read answer
 
 case $answer in 1)
-sudo ./Whonix/whonix_build --build --tor-gateway
+sudo ./nothing-to-see/whonix_build --build --tor-gateway
 esac
 
 case $answer in 2)
-sudo ./Whonix/whonix_build --build --tor-workstation
+sudo ./nothing-to-see/whonix_build --build --tor-workstation
 esac
 
 case $answer in 3 )
-sudo ./Whonix/whonix_build --tor-gateway --bare-metal --build >> /home/user/log-bare-metal 2>> /home/user/log-bare-metal
+sudo ./nothing-to-see/whonix_build --tor-gateway --bare-metal --build >> /home/user/log-bare-metal 2>> /home/user/log-bare-metal
 esac
 
 #case $answer in 4)
