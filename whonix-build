@@ -150,6 +150,5 @@ echo "If you want to build Whonix again just type 'whonix' and press Enter"
 exit
 esac
 esac
-esac
 
 #done
