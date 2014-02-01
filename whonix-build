@@ -10,7 +10,7 @@ sudo apt-get -t wheezy-backports install git -y
 #condition=
 #until [ "$condition" = "0" ]; do
 
-clear
+#clear
 echo "==============================================================================="
 echo "Which version of Whonix would you like to build?"
 echo ""
