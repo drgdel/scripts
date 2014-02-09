@@ -1,0 +1,24 @@
+sudo mkdir --parents /etc/whonix_buildconfig.d
+
+echo '# This file is part of Whonix
+# Copyright (C) 2012 - 2013 adrelanos <adrelanos@riseup.net>
+# See the file COPYING for copying conditions.
+
+whonix_build_script_whonix_package+=" whonix-shared-packages-recommended "
+whonix_build_script_whonix_package+=" whonix-gateway-packages-recommended "
+whonix_build_script_whonix_package+=" whonix-workstation-packages-recommended "
+whonix_build_script_whonix_package+=" whonix-workstation-default-applications "
+' | sudo tee "/etc/whonix_buildconfig.d/50_no_default_apps" > /dev/null
+
+echo '# This file is part of Whonix
+# Copyright (C) 2012 - 2013 adrelanos <adrelanos@riseup.net>
+# See the file COPYING for copying conditions.
+
+whonix_build_script_whonix_package+=" whonix-shared-desktop "
+whonix_build_script_whonix_package+=" whonix-shared-desktop-kde "
+whonix_build_script_whonix_package+=" whonix-shared-kde-accessibility "
+' | sudo tee "/etc/whonix_buildconfig.d/50_terminal_only" > /dev/null
+
+cat /etc/whonix_buildconfig.d/50_no_default_apps
+
+cat /etc/whonix_buildconfig.d/50_no_default_apps
