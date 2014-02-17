@@ -20,5 +20,3 @@ whonix_build_script_whonix_package+=" whonix-shared-kde-accessibility "
 ' | sudo tee "/etc/whonix_buildconfig.d/50_terminal_only" > /dev/null
 
 cat /etc/whonix_buildconfig.d/50_no_default_apps
-
-cat /etc/whonix_buildconfig.d/50_no_default_apps
